@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get hentaireadSource => _hentaireadSource;
 Source _hentaireadSource = Source(
+  itemType: ItemType.manga,
     name: "HentaiRead",
     baseUrl: "https://hentairead.com",
     lang: "en",

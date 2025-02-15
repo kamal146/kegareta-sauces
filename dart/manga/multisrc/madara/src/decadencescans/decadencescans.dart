@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get decadencescansSource => _decadencescansSource;
             
   Source _decadencescansSource = Source(
+  itemType: ItemType.manga,
     name: "Decadence Scans",
     baseUrl: "https://reader.decadencescans.com",
     lang: "en",

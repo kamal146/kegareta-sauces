@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get dessertscanSource => _dessertscanSource;
             
   Source _dessertscanSource = Source(
+  itemType: ItemType.manga,
     name: "Dessert Scan",
     baseUrl: "https://cabaredowatame.site",
     lang: "pt-BR",

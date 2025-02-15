@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get madaradexSource => _madaradexSource;
 Source _madaradexSource = Source(
+  itemType: ItemType.manga,
     name: "MadaraDex",
     baseUrl: "https://madaradex.org",
     lang: "en",

@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get girlslovemangaSource => _girlslovemangaSource;
             
   Source _girlslovemangaSource = Source(
+  itemType: ItemType.manga,
     name: "Girls Love Manga!",
     baseUrl: "https://glmanga.com",
     lang: "en",

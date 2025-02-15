@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get noindexscanSource => _noindexscanSource;
 Source _noindexscanSource = Source(
+  itemType: ItemType.manga,
     name: "No Index Scan",
     baseUrl: "https://noindexscan.com",
     lang: "pt-br",

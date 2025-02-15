@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get yaoicomicsSource => _yaoicomicsSource;
             
   Source _yaoicomicsSource = Source(
+  itemType: ItemType.manga,
     name: "Yaoi Comics",
     baseUrl: "https://ycscan.com",
     lang: "pt-BR",

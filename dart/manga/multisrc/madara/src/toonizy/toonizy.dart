@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get toonizySource => _toonizySource;
             
   Source _toonizySource = Source(
+  itemType: ItemType.manga,
     name: "Toonizy",
     baseUrl: "https://toonizy.com",
     lang: "en",

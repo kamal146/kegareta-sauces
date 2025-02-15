@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get toonilySource => _toonilySource;
 Source _toonilySource = Source(
+  itemType: ItemType.manga,
     name: "Toonily",
     baseUrl: "https://toonily.com",
     lang: "en",

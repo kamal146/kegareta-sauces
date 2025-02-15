@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get scanhentaifrSource => _scanhentaifrSource;
 Source _scanhentaifrSource = Source(
+  itemType: ItemType.manga,
     name: "Scan Hentai FR",
     baseUrl: "https://scan-hentai.fr",
     lang: "fr",

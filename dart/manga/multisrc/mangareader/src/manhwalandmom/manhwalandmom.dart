@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get manhwalandmomSource => _manhwalandmomSource;
 Source _manhwalandmomSource = Source(
+  itemType: ItemType.manga,
     name: "ManhwaLand.mom",
     baseUrl: "https://manhwaland.lat",
     lang: "id",

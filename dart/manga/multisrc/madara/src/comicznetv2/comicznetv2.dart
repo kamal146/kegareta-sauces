@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get comicznetv2Source => _comicznetv2Source;
             
   Source _comicznetv2Source = Source(
+  itemType: ItemType.manga,
     name: "Comicz.net v2",
     baseUrl: "https://v2.comiz.net",
     lang: "all",

@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get mindafansubSource => _mindafansubSource;
 Source _mindafansubSource = Source(
+  itemType: ItemType.manga,
     name: "Minda Fansub",
     baseUrl: "https://mindafansub.online",
     lang: "tr",

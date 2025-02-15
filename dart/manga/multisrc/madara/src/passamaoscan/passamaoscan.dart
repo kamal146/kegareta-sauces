@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get passamaoscanSource => _passamaoscanSource;
 Source _passamaoscanSource = Source(
+  itemType: ItemType.manga,
     name: "Passa Mão Scan",
     baseUrl: "https://passamaoscan.com",
     lang: "pt-br",

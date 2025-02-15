@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get meowsubsSource => _meowsubsSource;
 Source _meowsubsSource = Source(
+  itemType: ItemType.manga,
     name: "MeowSubs",
     baseUrl: "https://meowsubs.com",
     lang: "tr",

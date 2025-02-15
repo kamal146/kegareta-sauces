@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get hentaixcomicSource => _hentaixcomicSource;
             
   Source _hentaixcomicSource = Source(
+  itemType: ItemType.manga,
     name: "HentaiXComic",
     baseUrl: "https://hentaixcomic.com",
     lang: "en",

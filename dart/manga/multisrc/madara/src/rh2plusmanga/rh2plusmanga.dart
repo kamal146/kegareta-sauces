@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get rh2plusmangaSource => _rh2plusmangaSource;
 Source _rh2plusmangaSource = Source(
+  itemType: ItemType.manga,
     name: "Rh2PlusManga",
     baseUrl: "https://www.rh2plusmanga.com",
     lang: "th",

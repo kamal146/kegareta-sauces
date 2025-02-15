@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get laviniafansubSource => _laviniafansubSource;
 Source _laviniafansubSource = Source(
+  itemType: ItemType.manga,
     name: "Lavinia Fansub",
     baseUrl: "https://laviniafansub.com",
     lang: "tr",

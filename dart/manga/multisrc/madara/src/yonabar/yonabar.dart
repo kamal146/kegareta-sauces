@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get yonabarSource => _yonabarSource;
 Source _yonabarSource = Source(
+  itemType: ItemType.manga,
     name: "YonaBar",
     baseUrl: "https://yonabar.com",
     lang: "ar",

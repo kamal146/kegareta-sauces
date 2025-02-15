@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get freemangaSource => _freemangaSource;
             
   Source _freemangaSource = Source(
+  itemType: ItemType.manga,
     name: "Free Manga",
     baseUrl: "https://freemanga.me",
     lang: "en",

@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get strayfansubSource => _strayfansubSource;
 Source _strayfansubSource = Source(
+  itemType: ItemType.manga,
     name: "Stray Fansub",
     baseUrl: "https://strayfansub.com",
     lang: "tr",

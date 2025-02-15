@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get flextapescansSource => _flextapescansSource;
             
   Source _flextapescansSource = Source(
+  itemType: ItemType.manga,
     name: "Flex Tape Scans",
     baseUrl: "https://flextapescans.com",
     lang: "en",

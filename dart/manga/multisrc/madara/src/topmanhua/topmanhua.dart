@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get topmanhuaSource => _topmanhuaSource;
 Source _topmanhuaSource = Source(
+  itemType: ItemType.manga,
     name: "Top Manhua",
     baseUrl: "https://mangatop.org",
     lang: "en",

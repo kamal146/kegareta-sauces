@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get prismahentaisSource => _prismahentaisSource;
             
   Source _prismahentaisSource = Source(
+  itemType: ItemType.manga,
     name: "Prisma Hentais",
     baseUrl: "https://prismahentai.com",
     lang: "pt-BR",

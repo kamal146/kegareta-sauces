@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
 Source get dojingnetSource => _dojingnetSource;
 
 Source _dojingnetSource = Source(
+  itemType: ItemType.manga,
   name: "Dojing.net",
   baseUrl: "https://dojing.net",
   lang: "id",

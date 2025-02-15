@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get yaoitoonSource => _yaoitoonSource;
 Source _yaoitoonSource = Source(
+  itemType: ItemType.manga,
     name: "YaoiToon",
     baseUrl: "https://yaoitoon.com",
     lang: "en",

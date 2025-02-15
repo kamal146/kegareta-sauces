@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get jiangzaitoonSource => _jiangzaitoonSource;
             
   Source _jiangzaitoonSource = Source(
+  itemType: ItemType.manga,
     name: "Jiangzaitoon",
     baseUrl: "https://jiangzaitoon.cc",
     lang: "tr",

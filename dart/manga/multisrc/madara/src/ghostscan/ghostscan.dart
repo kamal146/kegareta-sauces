@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get ghostscanSource => _ghostscanSource;
             
   Source _ghostscanSource = Source(
+  itemType: ItemType.manga,
     name: "Ghost Scan",
     baseUrl: "https://ghostscan.com.br",
     lang: "pt-BR",

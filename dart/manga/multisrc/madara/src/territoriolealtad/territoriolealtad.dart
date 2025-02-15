@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get territoriolealtadSource => _territoriolealtadSource;
 Source _territoriolealtadSource = Source(
+  itemType: ItemType.manga,
     name: "Territorio Lealtad",
     baseUrl: "https://territorioleal.com",
     lang: "es",

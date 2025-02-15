@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get apollcomicsSource => _apollcomicsSource;
             
   Source _apollcomicsSource = Source(
+  itemType: ItemType.manga,
     name: "ApollComics",
     baseUrl: "https://apollcomics.xyz",
     lang: "es",

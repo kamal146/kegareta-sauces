@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get wintersunSource => _wintersunSource;
 Source _wintersunSource = Source(
+  itemType: ItemType.manga,
     name: "Winter Sun",
     baseUrl: "https://wintersunscan.xyz",
     lang: "pt-br",

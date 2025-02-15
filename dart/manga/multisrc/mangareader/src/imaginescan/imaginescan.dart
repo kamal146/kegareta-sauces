@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get imaginescanSource => _imaginescanSource;
 Source _imaginescanSource = Source(
+  itemType: ItemType.manga,
     name: "Imagine Scan",
     baseUrl: "https://imaginescan.com.br",
     lang: "pt-br",

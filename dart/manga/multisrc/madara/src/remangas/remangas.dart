@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get remangasSource => _remangasSource;
 Source _remangasSource = Source(
+  itemType: ItemType.manga,
     name: "Remangas",
     baseUrl: "https://remangas.net",
     lang: "pt-br",

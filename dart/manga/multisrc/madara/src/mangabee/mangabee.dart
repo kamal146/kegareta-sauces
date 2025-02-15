@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get mangabeeSource => _mangabeeSource;
             
   Source _mangabeeSource = Source(
+  itemType: ItemType.manga,
     name: "Manga Bee",
     baseUrl: "https://mangabee.net",
     lang: "en",

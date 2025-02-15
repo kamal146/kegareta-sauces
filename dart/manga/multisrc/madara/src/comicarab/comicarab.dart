@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get comicarabSource => _comicarabSource;
             
   Source _comicarabSource = Source(
+  itemType: ItemType.manga,
     name: "كوميك العرب",
     baseUrl: "https://comicarab.com",
     lang: "ar",

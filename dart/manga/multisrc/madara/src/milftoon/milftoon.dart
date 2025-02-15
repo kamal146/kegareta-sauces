@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get milftoonSource => _milftoonSource;
             
   Source _milftoonSource = Source(
+  itemType: ItemType.manga,
     name: "Milftoon",
     baseUrl: "https://milftoon.xxx",
     lang: "en",

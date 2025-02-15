@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get birdtoonSource => _birdtoonSource;
             
   Source _birdtoonSource = Source(
+  itemType: ItemType.manga,
     name: "BirdToon",
     baseUrl: "https://birdtoon.net",
     lang: "id",

@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get sekaikomikSource => _sekaikomikSource;
 Source _sekaikomikSource = Source(
+  itemType: ItemType.manga,
     name: "Sekaikomik",
     baseUrl: "https://sekaikomik.guru",
     lang: "id",

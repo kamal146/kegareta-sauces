@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get isekaiscaneuSource => _isekaiscaneuSource;
 Source _isekaiscaneuSource = Source(
+  itemType: ItemType.manga,
     name: "IsekaiScan.to (unoriginal)",
     baseUrl: "https://m.isekaiscan.to",
     lang: "en",

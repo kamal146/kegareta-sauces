@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get ecchidoujinSource => _ecchidoujinSource;
 Source _ecchidoujinSource = Source(
+  itemType: ItemType.manga,
     name: "Ecchi-Doujin",
     baseUrl: "https://ecchi-doujin.com",
     lang: "th",

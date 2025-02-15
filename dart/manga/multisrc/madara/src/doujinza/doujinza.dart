@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get doujinzaSource => _doujinzaSource;
 Source _doujinzaSource = Source(
+  itemType: ItemType.manga,
     name: "DoujinZa",
     baseUrl: "https://doujinza.com",
     lang: "th",

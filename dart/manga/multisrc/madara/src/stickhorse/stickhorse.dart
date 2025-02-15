@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get stickhorseSource => _stickhorseSource;
 Source _stickhorseSource = Source(
+  itemType: ItemType.manga,
     name: "Stick Horse",
     baseUrl: "https://stickhorse.cl",
     lang: "es",

@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get hentaimangaSource => _hentaimangaSource;
             
   Source _hentaimangaSource = Source(
+  itemType: ItemType.manga,
     name: "Hentai Manga",
     baseUrl: "https://hentaimanga.me",
     lang: "en",

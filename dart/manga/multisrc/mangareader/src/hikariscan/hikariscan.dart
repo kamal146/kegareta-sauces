@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get hikariscanSource => _hikariscanSource;
 Source _hikariscanSource = Source(
+  itemType: ItemType.manga,
     name: "Hikari Scan",
     baseUrl: "https://hikariscan.org",
     lang: "pt-br",

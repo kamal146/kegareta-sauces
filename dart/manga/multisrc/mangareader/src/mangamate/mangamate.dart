@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get mangamateSource => _mangamateSource;
 Source _mangamateSource = Source(
+  itemType: ItemType.manga,
     name: "漫画メイト",
     baseUrl: "https://manga-mate.org",
     lang: "ja",

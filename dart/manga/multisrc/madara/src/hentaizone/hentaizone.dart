@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
 Source get hentaizoneSource => _hentaizoneSource;
 
 Source _hentaizoneSource = Source(
+  itemType: ItemType.manga,
   name: "HentaiZone",
   baseUrl: "https://hentaizone.xyz",
   lang: "fr",

@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get topcomicpornoSource => _topcomicpornoSource;
 Source _topcomicpornoSource = Source(
+  itemType: ItemType.manga,
     name: "TopComicPorno",
     baseUrl: "https://topcomicporno.com",
     lang: "es",

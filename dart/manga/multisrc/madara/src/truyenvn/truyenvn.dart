@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get truyenvnSource => _truyenvnSource;
 Source _truyenvnSource = Source(
+  itemType: ItemType.manga,
     name: "TruyenVN",
     baseUrl: "https://truyenvn.lol",
     lang: "vi",

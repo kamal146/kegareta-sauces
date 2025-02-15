@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
 Source get yugenmangasSource => _yugenmangasSource;
 
 Source _yugenmangasSource = Source(
+  itemType: ItemType.manga,
   name: "YugenMangas",
   baseUrl: "https://yugenmangas.lat",
   apiUrl: "https://api.yugenmangas.net",

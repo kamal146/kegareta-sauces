@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get opiatoonSource => _opiatoonSource;
 Source _opiatoonSource = Source(
+  itemType: ItemType.manga,
     name: "Opiatoon",
     baseUrl: "https://opiatoon.biz",
     lang: "tr",

@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get moonloversscanSource => _moonloversscanSource;
             
   Source _moonloversscanSource = Source(
+  itemType: ItemType.manga,
     name: "MoonLovers Scan",
     baseUrl: "https://moonloversscan.com.br",
     lang: "pt-BR",

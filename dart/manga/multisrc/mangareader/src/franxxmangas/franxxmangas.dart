@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get franxxmangasSource => _franxxmangasSource;
 Source _franxxmangasSource = Source(
+  itemType: ItemType.manga,
     name: "Franxx Mangás",
     baseUrl: "https://franxxmangas.net",
     lang: "pt-br",

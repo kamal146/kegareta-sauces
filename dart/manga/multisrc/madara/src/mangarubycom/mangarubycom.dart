@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get mangarubycomSource => _mangarubycomSource;
             
   Source _mangarubycomSource = Source(
+  itemType: ItemType.manga,
     name: "MangaRuby.com",
     baseUrl: "https://mangaruby.com",
     lang: "en",

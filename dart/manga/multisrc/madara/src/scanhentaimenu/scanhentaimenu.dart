@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get scanhentaimenuSource => _scanhentaimenuSource;
 Source _scanhentaimenuSource = Source(
+  itemType: ItemType.manga,
     name: "X-Manga",
     baseUrl: "https://x-manga.net",
     lang: "fr",

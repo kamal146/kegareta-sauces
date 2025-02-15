@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get cafecomyaoiSource => _cafecomyaoiSource;
 Source _cafecomyaoiSource = Source(
+  itemType: ItemType.manga,
     name: "Café com Yaoi",
     baseUrl: "http://cafecomyaoi.com.br",
     lang: "pt-br",

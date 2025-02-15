@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get hentaiwebtoonSource => _hentaiwebtoonSource;
             
   Source _hentaiwebtoonSource = Source(
+  itemType: ItemType.manga,
     name: "HentaiWebtoon",
     baseUrl: "https://hentaiwebtoon.com",
     lang: "en",

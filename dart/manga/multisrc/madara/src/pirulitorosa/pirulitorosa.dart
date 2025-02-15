@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get pirulitorosaSource => _pirulitorosaSource;
 Source _pirulitorosaSource = Source(
+  itemType: ItemType.manga,
     name: "Pirulito Rosa",
     baseUrl: "https://pirulitorosa.site",
     lang: "pt-br",

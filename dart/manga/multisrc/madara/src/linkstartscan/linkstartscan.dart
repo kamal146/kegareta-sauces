@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get linkstartscanSource => _linkstartscanSource;
             
   Source _linkstartscanSource = Source(
+  itemType: ItemType.manga,
     name: "Link Start Scan",
     baseUrl: "https://www.linkstartscan.xyz",
     lang: "pt-BR",

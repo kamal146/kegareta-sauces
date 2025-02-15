@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get atlantisscanSource => _atlantisscanSource;
 Source _atlantisscanSource = Source(
+  itemType: ItemType.manga,
     name: "Atlantis Scan",
     baseUrl: "https://scansatlanticos.com",
     lang: "es",

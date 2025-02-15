@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get funtoonsSource => _funtoonsSource;
 Source _funtoonsSource = Source(
+  itemType: ItemType.manga,
     name: "FunToons",
     baseUrl: "https://funtoons.online",
     lang: "th",

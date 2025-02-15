@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get paragonscansSource => _paragonscansSource;
 Source _paragonscansSource = Source(
+  itemType: ItemType.manga,
     name: "Paragon Scans",
     baseUrl: "https://paragonscans.com",
     lang: "en",

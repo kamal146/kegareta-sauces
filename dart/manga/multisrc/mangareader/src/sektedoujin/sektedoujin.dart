@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get sektedoujinSource => _sektedoujinSource;
 Source _sektedoujinSource = Source(
+  itemType: ItemType.manga,
     name: "Sekte Doujin",
     baseUrl: "https://sektedoujin.cc",
     lang: "id",

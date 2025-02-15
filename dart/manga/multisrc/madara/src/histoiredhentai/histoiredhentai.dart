@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get histoiredhentaiSource => _histoiredhentaiSource;
 Source _histoiredhentaiSource = Source(
+  itemType: ItemType.manga,
     name: "HistoireDHentai",
     baseUrl: "https://hhentai.fr",
     lang: "fr",

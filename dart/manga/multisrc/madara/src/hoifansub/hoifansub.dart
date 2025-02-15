@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get hoifansubSource => _hoifansubSource;
 Source _hoifansubSource = Source(
+  itemType: ItemType.manga,
     name: "Hoi Fansub",
     baseUrl: "https://hoifansub.com",
     lang: "tr",

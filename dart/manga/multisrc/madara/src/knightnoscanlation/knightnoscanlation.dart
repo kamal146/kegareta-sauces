@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get knightnoscanlationSource => _knightnoscanlationSource;
 Source _knightnoscanlationSource = Source(
+  itemType: ItemType.manga,
     name: "Knight No Scanlation",
     baseUrl: "https://lectorkns.com",
     lang: "es",

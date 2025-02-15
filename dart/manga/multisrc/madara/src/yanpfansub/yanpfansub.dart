@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get yanpfansubSource => _yanpfansubSource;
             
   Source _yanpfansubSource = Source(
+  itemType: ItemType.manga,
     name: "YANP Fansub",
     baseUrl: "https://yanpfansub.com",
     lang: "pt-BR",

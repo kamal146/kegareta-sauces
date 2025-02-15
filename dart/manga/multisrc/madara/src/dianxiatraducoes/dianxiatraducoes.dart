@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get dianxiatraducoesSource => _dianxiatraducoesSource;
 Source _dianxiatraducoesSource = Source(
+  itemType: ItemType.manga,
     name: "Dianxia Traduções",
     baseUrl: "https://dianxiatrads.com",
     lang: "pt-br",

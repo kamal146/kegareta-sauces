@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get mangaowloneSource => _mangaowloneSource;
             
   Source _mangaowloneSource = Source(
+  itemType: ItemType.manga,
     name: "MangaOwl.one (unoriginal)",
     baseUrl: "https://mangaowl.one",
     lang: "en",

@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get doujinshellSource => _doujinshellSource;
 Source _doujinshellSource = Source(
+  itemType: ItemType.manga,
     name: "DoujinsHell",
     baseUrl: "https://www.doujinshell.com",
     lang: "es",

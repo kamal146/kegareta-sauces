@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get esmi2mangaSource => _esmi2mangaSource;
 Source _esmi2mangaSource = Source(
+  itemType: ItemType.manga,
     name: "Es.Mi2Manga",
     baseUrl: "https://es.mi2manga.com",
     lang: "es",

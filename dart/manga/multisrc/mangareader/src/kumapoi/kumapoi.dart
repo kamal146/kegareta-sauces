@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
 Source get kumapoiSource => _kumapoiSource;
 
 Source _kumapoiSource = Source(
+  itemType: ItemType.manga,
   name: "KumaPoi",
   baseUrl: "https://kumapoi.club",
   lang: "id",

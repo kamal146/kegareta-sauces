@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get vinmangaSource => _vinmangaSource;
             
   Source _vinmangaSource = Source(
+  itemType: ItemType.manga,
     name: "VinManga",
     baseUrl: "https://vinload.com",
     lang: "en",

@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get covenscanSource => _covenscanSource;
 Source _covenscanSource = Source(
+  itemType: ItemType.manga,
     name: "Coven Scan",
     baseUrl: "https://cvnscan.com",
     lang: "pt-br",

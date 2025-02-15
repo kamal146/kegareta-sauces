@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get starlightscanSource => _starlightscanSource;
 Source _starlightscanSource = Source(
+  itemType: ItemType.manga,
     name: "Starlight Scan",
     baseUrl: "https://starligthscan.com",
     lang: "pt-br",

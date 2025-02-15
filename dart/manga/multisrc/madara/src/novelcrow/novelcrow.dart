@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get novelcrowSource => _novelcrowSource;
             
   Source _novelcrowSource = Source(
+  itemType: ItemType.manga,
     name: "NovelCrow",
     baseUrl: "https://novelcrow.com",
     lang: "en",

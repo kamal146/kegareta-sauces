@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get tankouhentaiSource => _tankouhentaiSource;
             
   Source _tankouhentaiSource = Source(
+  itemType: ItemType.manga,
     name: "Tankou Hentai",
     baseUrl: "https://tankouhentai.com",
     lang: "pt-BR",

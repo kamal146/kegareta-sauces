@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
 Source get omegascansSource => _omegascansSource;
 
 Source _omegascansSource = Source(
+  itemType: ItemType.manga,
   name: "OmegaScans",
   baseUrl: "https://omegascans.org",
   apiUrl: "https://api.omegascans.org",

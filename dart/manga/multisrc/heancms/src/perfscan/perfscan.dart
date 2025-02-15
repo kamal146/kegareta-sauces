@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
 Source get perfscanSource => _perfscanSource;
 
 Source _perfscanSource = Source(
+  itemType: ItemType.manga,
   name: "Perf Scan",
   baseUrl: "https://perf-scan.fr",
   apiUrl: "https://api.perf-scan.fr",

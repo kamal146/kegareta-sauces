@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get maidsecretSource => _maidsecretSource;
 Source _maidsecretSource = Source(
+  itemType: ItemType.manga,
     name: "Maid Secret",
     baseUrl: "https://maidsecret.com",
     lang: "pt-br",

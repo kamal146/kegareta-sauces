@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get loliconSource => _loliconSource;
             
   Source _loliconSource = Source(
+  itemType: ItemType.manga,
     name: "Lolicon",
     baseUrl: "https://lolicon.mobi",
     lang: "en",

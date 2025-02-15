@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get webtoontrSource => _webtoontrSource;
 Source _webtoontrSource = Source(
+  itemType: ItemType.manga,
     name: "Webtoon TR",
     baseUrl: "https://webtoontr.net",
     lang: "tr",

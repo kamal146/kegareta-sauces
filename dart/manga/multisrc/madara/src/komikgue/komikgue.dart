@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get komikgueSource => _komikgueSource;
 Source _komikgueSource = Source(
+  itemType: ItemType.manga,
     name: "Komik Gue",
     baseUrl: "https://komikgue.pro",
     lang: "id",

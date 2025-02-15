@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get taberumangasSource => _taberumangasSource;
             
   Source _taberumangasSource = Source(
+  itemType: ItemType.manga,
     name: "Taberu Mangás",
     baseUrl: "https://taberu.org",
     lang: "pt-BR",

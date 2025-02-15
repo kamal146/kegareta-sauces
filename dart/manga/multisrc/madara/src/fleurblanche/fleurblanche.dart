@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get fleurblancheSource => _fleurblancheSource;
 Source _fleurblancheSource = Source(
+  itemType: ItemType.manga,
     name: "Fleur Blanche",
     baseUrl: "https://fbsscan.com",
     lang: "pt-br",

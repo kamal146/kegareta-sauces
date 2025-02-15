@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get milasubSource => _milasubSource;
 Source _milasubSource = Source(
+  itemType: ItemType.manga,
     name: "MilaSub",
     baseUrl: "https://www.milasub.co",
     lang: "tr",

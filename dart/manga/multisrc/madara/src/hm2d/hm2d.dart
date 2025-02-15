@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get hm2dSource => _hm2dSource;
             
   Source _hm2dSource = Source(
+  itemType: ItemType.manga,
     name: "HM2D",
     baseUrl: "https://mangadistrict.com/hdoujin",
     lang: "en",

@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get ntrmangaSource => _ntrmangaSource;
 Source _ntrmangaSource = Source(
+  itemType: ItemType.manga,
     name: "NTR-Manga",
     baseUrl: "https://www.ntr-manga.com",
     lang: "th",

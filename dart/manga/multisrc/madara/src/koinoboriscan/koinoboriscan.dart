@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get koinoboriscanSource => _koinoboriscanSource;
 Source _koinoboriscanSource = Source(
+  itemType: ItemType.manga,
     name: "Koinobori Scan",
     baseUrl: "https://koinoboriscan.com",
     lang: "es",

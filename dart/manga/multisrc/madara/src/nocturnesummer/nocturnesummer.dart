@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get nocturnesummerSource => _nocturnesummerSource;
 Source _nocturnesummerSource = Source(
+  itemType: ItemType.manga,
     name: "Nocturne Summer",
     baseUrl: "https://nocfsb.com",
     lang: "pt-br",

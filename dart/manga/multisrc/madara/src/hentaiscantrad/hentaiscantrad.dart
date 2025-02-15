@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get hentaiscantradSource => _hentaiscantradSource;
 Source _hentaiscantradSource = Source(
+  itemType: ItemType.manga,
     name: "Hentai-Scantrad",
     baseUrl: "https://hentai.scantrad-vf.cc",
     lang: "fr",

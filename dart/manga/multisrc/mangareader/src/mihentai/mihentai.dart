@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
 Source get mihentaiSource => _mihentaiSource;
 
 Source _mihentaiSource = Source(
+  itemType: ItemType.manga,
   name: "Mihentai",
   baseUrl: "https://mihentai.com",
   lang: "all",

@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get piedpiperfansubSource => _piedpiperfansubSource;
 Source _piedpiperfansubSource = Source(
+  itemType: ItemType.manga,
     name: "Pied Piper Fansub",
     baseUrl: "https://piedpiperfansub.me",
     lang: "tr",

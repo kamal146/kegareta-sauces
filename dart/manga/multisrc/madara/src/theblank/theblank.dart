@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get theblankSource => _theblankSource;
 Source _theblankSource = Source(
+  itemType: ItemType.manga,
     name: "The Blank Scanlation",
     baseUrl: "https://theblank.net",
     lang: "en",

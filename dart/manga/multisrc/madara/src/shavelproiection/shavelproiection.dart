@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get shavelproiectionSource => _shavelproiectionSource;
 Source _shavelproiectionSource = Source(
+  itemType: ItemType.manga,
     name: "ShavelProiection",
     baseUrl: "https://www.shavelproiection.com",
     lang: "it",

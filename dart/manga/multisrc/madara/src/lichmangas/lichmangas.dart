@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get lichmangasSource => _lichmangasSource;
 Source _lichmangasSource = Source(
+  itemType: ItemType.manga,
     name: "Lich Mangas",
     baseUrl: "https://lichmangas.com",
     lang: "pt-br",

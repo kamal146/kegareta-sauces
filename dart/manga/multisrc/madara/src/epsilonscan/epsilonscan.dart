@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get epsilonscanSource => _epsilonscanSource;
 Source _epsilonscanSource = Source(
+  itemType: ItemType.manga,
     name: "Epsilon Scan",
     baseUrl: "https://epsilonscan.fr",
     lang: "fr",

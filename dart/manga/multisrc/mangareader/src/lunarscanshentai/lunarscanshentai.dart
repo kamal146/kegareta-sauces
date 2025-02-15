@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get lunarscanshentaiSource => _lunarscanshentaiSource;
 Source _lunarscanshentaiSource = Source(
+  itemType: ItemType.manga,
     name: "Lunar Scans Hentai",
     baseUrl: "https://hentai.lunarscans.fr",
     lang: "fr",

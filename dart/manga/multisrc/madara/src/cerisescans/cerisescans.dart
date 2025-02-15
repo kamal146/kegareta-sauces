@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get cerisescansSource => _cerisescansSource;
             
   Source _cerisescansSource = Source(
+  itemType: ItemType.manga,
     name: "Cerise Scan",
     baseUrl: "https://cerisescan.com",
     lang: "pt-BR",

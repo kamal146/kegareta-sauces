@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get manhwahentaiSource => _manhwahentaiSource;
 Source _manhwahentaiSource = Source(
+  itemType: ItemType.manga,
     name: "Manhwa Hentai",
     baseUrl: "https://manhwahentai.to",
     lang: "en",

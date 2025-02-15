@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get pinkseaunicornSource => _pinkseaunicornSource;
             
   Source _pinkseaunicornSource = Source(
+  itemType: ItemType.manga,
     name: "Pink Sea Unicorn",
     baseUrl: "https://psunicorn.com",
     lang: "pt-BR",

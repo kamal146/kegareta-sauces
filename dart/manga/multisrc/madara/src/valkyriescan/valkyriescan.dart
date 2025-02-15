@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get valkyriescanSource => _valkyriescanSource;
             
   Source _valkyriescanSource = Source(
+  itemType: ItemType.manga,
     name: "Valkyrie Scan",
     baseUrl: "https://valkyriescan.com",
     lang: "pt-BR",

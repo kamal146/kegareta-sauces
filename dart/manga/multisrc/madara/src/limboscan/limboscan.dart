@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get limboscanSource => _limboscanSource;
 Source _limboscanSource = Source(
+  itemType: ItemType.manga,
     name: "Limbo Scan",
     baseUrl: "https://limboscan.com.br",
     lang: "pt-br",

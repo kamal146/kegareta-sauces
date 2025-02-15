@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get prismascansSource => _prismascansSource;
 Source _prismascansSource = Source(
+  itemType: ItemType.manga,
     name: "Demon Sect",
     baseUrl: "https://dsectcomics.org",
     lang: "pt-br",

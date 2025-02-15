@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get mangalcSource => _mangalcSource;
 Source _mangalcSource = Source(
+  itemType: ItemType.manga,
     name: "Manga-Lc",
     baseUrl: "https://manga-lc.net",
     lang: "th",

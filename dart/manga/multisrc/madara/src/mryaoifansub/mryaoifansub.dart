@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get mryaoifansubSource => _mryaoifansubSource;
 Source _mryaoifansubSource = Source(
+  itemType: ItemType.manga,
     name: "MR Yaoi Fansub",
     baseUrl: "https://mrbenne.com",
     lang: "pt-br",

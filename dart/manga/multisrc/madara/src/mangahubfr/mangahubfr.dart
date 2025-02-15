@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get mangahubfrSource => _mangahubfrSource;
 Source _mangahubfrSource = Source(
+  itemType: ItemType.manga,
     name: "MangaHub.fr",
     baseUrl: "https://mangahub.fr",
     lang: "fr",

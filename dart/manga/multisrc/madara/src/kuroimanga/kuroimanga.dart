@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get kuroimangaSource => _kuroimangaSource;
 Source _kuroimangaSource = Source(
+  itemType: ItemType.manga,
     name: "Kuroi Manga",
     baseUrl: "https://kuroimanga.com",
     lang: "tr",

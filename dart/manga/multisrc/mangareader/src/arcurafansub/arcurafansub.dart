@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get arcurafansubSource => _arcurafansubSource;
 Source _arcurafansubSource = Source(
+  itemType: ItemType.manga,
     name: "Arcura Fansub",
     baseUrl: "https://arcurafansub.com",
     lang: "tr",

@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get manhwa18ccSource => _manhwa18ccSource;
 Source _manhwa18ccSource = Source(
+  itemType: ItemType.manga,
     name: "Manhwa18.cc",
     baseUrl: "https://manhwa18.cc",
     lang: "all",

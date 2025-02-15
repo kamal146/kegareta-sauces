@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
 Source get kanzeninSource => _kanzeninSource;
 
 Source _kanzeninSource = Source(
+  itemType: ItemType.manga,
   name: "Kanzenin",
   baseUrl: "https://kanzenin.xyz",
   lang: "id",

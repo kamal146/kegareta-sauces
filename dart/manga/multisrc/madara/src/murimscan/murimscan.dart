@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get murimscanSource => _murimscanSource;
             
   Source _murimscanSource = Source(
+  itemType: ItemType.manga,
     name: "MurimScan",
     baseUrl: "https://murimscan.run",
     lang: "en",

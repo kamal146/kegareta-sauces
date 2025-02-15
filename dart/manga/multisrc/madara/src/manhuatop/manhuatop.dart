@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get manhuatopSource => _manhuatopSource;
 Source _manhuatopSource = Source(
+  itemType: ItemType.manga,
     name: "ManhuaTop",
     baseUrl: "https://manhuatop.org",
     lang: "en",

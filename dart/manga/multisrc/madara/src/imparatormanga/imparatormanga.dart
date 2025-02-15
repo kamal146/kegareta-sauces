@@ -2,6 +2,7 @@ import '../../../../../../model/source.dart';
 
 Source get imparatormangaSource => _imparatormangaSource;
 Source _imparatormangaSource = Source(
+  itemType: ItemType.manga,
     name: "İmparator Manga",
     baseUrl: "https://www.imparatormanga.com",
     lang: "tr",

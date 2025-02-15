@@ -3,6 +3,7 @@ import '../../../../../../model/source.dart';
   Source get finalscansSource => _finalscansSource;
             
   Source _finalscansSource = Source(
+  itemType: ItemType.manga,
     name: "Final Scans",
     baseUrl: "https://finalscans.com",
     lang: "pt-br",
