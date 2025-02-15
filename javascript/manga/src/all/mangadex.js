@@ -1,5 +1,5 @@
 const mangayomiSources = [{
-    "name": "MangaDex",
+    "name": "MangaDex (unlocked)",
     "langs": ["ar", "bn", "bg", "my", "ca", "zh", "zh-hk", "cs", "da", "nl", "en", "tl", "fi", "fr", "de", "el", "he", "hi", "hu", "id", "it", "ja", "kk", "ko", "la", "lt", "ms", "mn", "ne", "no", "fa", "pl", "pt-br", "pt", "ro", "ru", "sh", "es-419", "es", "sv", "ta", "th", "tr", "uk", "vi"],
     "ids": {
         "ar": 202373705,
