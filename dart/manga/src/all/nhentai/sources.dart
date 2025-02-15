@@ -14,7 +14,7 @@ List<String> _languages = ["all", "en", "zh", "ja"];
 List<Source> get nhentaiSourcesList => _nhentaiSourcesList;
 List<Source> _nhentaiSourcesList = _languages
     .map((e) => Source(
-  itemType: ItemType.manga,
+        itemType: ItemType.manga,
         name: 'NHentai',
         baseUrl: _baseUrl,
         hasCloudflare: true,
