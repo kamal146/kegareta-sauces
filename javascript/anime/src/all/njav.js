@@ -1,9 +1,9 @@
 const kegaretaSauces = [{
     "name": "Njav",
     "lang": "all",
-    "baseUrl": "https://njav.tv/en",
+    "baseUrl": "https://123av.com/en",
     "apiUrl": "",
-    "iconUrl": "https://njav.tv/assets/njav/images/favicon.png",
+    "iconUrl": "https://123av.com/assets/123av/images/logo.png",
     "typeSource": "single",
     "itemType": 1,
     "isNsfw": true,
@@ -339,7 +339,7 @@ const kegaretaSauces = [{
             "summary": "",
             "valueIndex": 0,
             "entries": ["njav", "missav", "javgo", "supjav"],
-            "entryValues": ["https://njav.xyz", "https://missav.li", "https://www.javgo.to", "https://supjav.pro"],
+            "entryValues": ["https://123av.com", "https://missav.li", "https://www.javgo.to", "https://supjav.pro"],
           }
         }
       ];
