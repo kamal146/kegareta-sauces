@@ -11,7 +11,7 @@ const kegaretaSauces = [{
     "apiUrl": "",
     "dateFormat": "",
     "dateFormatLocale": "",
-    "pkgName": "anime/src/all/njav.js"
+    "pkgName": "anime/src/all/123av.js"
   }];
   
   class DefaultExtension extends MProvider {
@@ -341,7 +341,7 @@ const kegaretaSauces = [{
             "title": "Website Url",
             "summary": "",
             "valueIndex": 0,
-            "entries": ["njav", "missav", "javgo", "supjav"],
+            "entries": ["123av", "missav", "javgo", "supjav"],
             "entryValues": ["https://123av.com", "https://missav.li", "https://www.javgo.to", "https://supjav.com"],
           }
         }
