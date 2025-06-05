@@ -7,7 +7,7 @@ const kegaretaSauces = [{
     "typeSource": "single",
     "itemType": 1,
     "isNsfw": true,
-    "version": "0.0.1",
+    "version": "0.0.11",
     "dateFormat": "",
     "dateFormatLocale": "",
     "pkgPath": "anime/src/all/vivamaxph.js"
@@ -96,13 +96,13 @@ class DefaultExtension extends MProvider {
         const elements = new Document(res.body);
         const videos = []
         const redirectgs = elements.selectFirst("iframe").attr("src");
-        const body = (await new Client().get(redirectgs)).body;
-        const quality = "DoodStream";        
-        const vids = await doodExtractor(redirectgs, quality);
-        for (const vid of vids) {
-            videos.push(vid);
-        }
-      return videos;                        
+        // const body = (await new Client().get(redirectgs)).body;
+        // const quality = "DoodStream";        
+        // const vids = await doodExtractor(redirectgs, quality);
+        // for (const vid of vids) {
+        //     videos.push(vid);
+        // }
+        return redirectgs;                        
     }
     // For manga chapter pages
     async getPageList() {
