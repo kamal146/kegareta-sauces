@@ -7,7 +7,7 @@ const kegaretaSauces = [{
     "typeSource": "single",
     "itemType": 1,
     "isNsfw": true,
-    "version": "0.0.1",
+    "version": "0.0.1.1",
     "dateFormat": "",
     "dateFormatLocale": "",
     "pkgPath": "anime/src/all/vivamaxph.js"
