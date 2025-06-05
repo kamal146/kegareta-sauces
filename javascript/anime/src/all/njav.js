@@ -1,9 +1,9 @@
 const kegaretaSauces = [{
-    "name": "Njav",
+    "name": "123av",
     "lang": "all",
-    "baseUrl": "https://njav.tv/en",
+    "baseUrl": "https://123av.com/en",
     "apiUrl": "",
-    "iconUrl": "https://njav.tv/assets/njav/images/favicon.png",
+    "iconUrl": "https://raw.githubusercontent.com/kamal146/kegareta-sauces/main/javascript/icon/123av.png",
     "typeSource": "single",
     "itemType": 1,
     "isNsfw": true,
@@ -54,11 +54,11 @@ const kegaretaSauces = [{
     }
   
     async getPopular(page) {
-      return await this.getItems(`/trending?page=${page}`);
+      return await this.getItems(`/dm5/trending?page=${page}`);
     }
   
     async getLatestUpdates(page) {
-      return await this.getItems(`/new-release?page=${page}`);
+      return await this.getItems(`/dm5/new-release?page=${page}`);
     }
   
     async search(query, page, filters) {
@@ -81,7 +81,7 @@ const kegaretaSauces = [{
       const res = await this.request(`/ajax/v/${id}/videos`);
       const datas = JSON.parse(res);
       const ep = [];
-      for (const data of datas["data"]["watch"]) {
+      for (const data of datas["result"]["watch"]) {
         ep.push({
           name: data["name"],
           url: data["url"],
@@ -117,7 +117,10 @@ const kegaretaSauces = [{
       } catch {
         genres = [];
       }
-      const id = body.selectFirst("div.container").attr("v-scope").slice(12, -3);
+      const id_start = body.selectFirst("div.container").attr("v-scope").indexOf(": ", 1);
+      const id_end = body.selectFirst("div.container").attr("v-scope").indexOf(",", 1);
+      const id = body.selectFirst("div.container").attr("v-scope").slice(id_start+2, id_end);
+      // const video_url = body.selectFirst("iframe").attr("src").split("?");
       const eps = await this.getEpisodes(id, updateTime);
       return {
         name: title,
@@ -339,7 +342,7 @@ const kegaretaSauces = [{
             "summary": "",
             "valueIndex": 0,
             "entries": ["njav", "missav", "javgo", "supjav"],
-            "entryValues": ["https://njav.xyz", "https://missav.li", "https://www.javgo.to", "https://supjav.pro"],
+            "entryValues": ["https://123av.com", "https://missav.li", "https://www.javgo.to", "https://supjav.com"],
           }
         }
       ];
