@@ -22,7 +22,7 @@ class DefaultExtension extends MProvider {
         for (const element of elements){ 
             const linkElement = element.selectFirst("a");        
             const name = element.selectFirst("a").attr("title");
-            const imageUrl = linkElement.selectFirst("img").attr("data-src");            
+            const imageUrl = linkElement.selectFirst("img").attr("src");            
             const link = element.selectFirst("a").attr("href");                
             if (name && imageUrl && link) {
                 list.push({ name, imageUrl, link });
@@ -41,7 +41,7 @@ class DefaultExtension extends MProvider {
         for (const element of elements){ 
             const linkElement = element.selectFirst("a");        
             const name = element.selectFirst("a").attr("title");
-            const imageUrl = linkElement.selectFirst("img").attr("data-src");            
+            const imageUrl = linkElement.selectFirst("img").attr("src");            
             const link = element.selectFirst("a").attr("href");                
             if (name && imageUrl && link) {
                 list.push({ name, imageUrl, link });
