@@ -1,5 +1,5 @@
 const kegaretaSauces = [{
-    "name": "123av",
+    "name": "123AV",
     "lang": "all",
     "baseUrl": "https://123av.com/en",
     "apiUrl": "",
