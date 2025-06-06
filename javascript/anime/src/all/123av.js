@@ -34,7 +34,7 @@ const kegaretaSauces = [{
     async getItems(url) {
       const res = await this.request(url);
       const doc = new Document(res);
-      const elements = doc.select("div.box-item");
+      const elements = doc.getElementsByClassName("box-item");
       const items = [];
       for (const element of elements) {
         const cover = element.selectFirst("img").attr("data-src");
